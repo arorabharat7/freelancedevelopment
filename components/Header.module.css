@@ -1,0 +1,65 @@
+.mainHeaader {
+  margin-bottom: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  color: #282c34;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 99999999999;
+  /* box-shadow: 1px 1px 6px 4px rgba(0, 0, 0, 0.1); */
+
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.header nav ul li {
+  margin: 0;
+}
+
+.header nav ul li a {
+  color: #2b2c2d;
+  text-decoration: none;
+}
+
+.header nav ul li button {
+  background: none;
+  border: none;
+  color: #2b2c2d;
+  cursor: pointer;
+}
+
+.desktopTitle {
+
+  display: block;
+}
+
+.mobileTitle {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .desktopTitle {
+    display: none;
+  }
+
+  .mobileTitle {
+    display: block;
+  }
+}

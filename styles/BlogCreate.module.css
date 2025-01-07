@@ -1,0 +1,52 @@
+.container {
+    /* @apply p-8 max-w-3xl mx-auto; */
+  }
+  
+  .main {
+    @apply mt-8 flex  space-y-4; 
+  }
+  
+  .title {
+    @apply text-2xl font-bold mb-4;
+  }
+  
+  .form {
+    @apply flex flex-col space-y-4;
+  }
+  
+  .input, .textarea {
+    @apply p-2 border rounded-md;
+  }
+  
+  .textarea {
+    /* @apply h-80; */
+  }
+  
+  .button {
+    @apply bg-blue-500 text-white p-2 rounded-md;
+  }
+  
+  .feedback {
+    @apply text-sm;
+  }
+  
+  .success {
+    @apply text-green-500;
+  }
+  
+  .error {
+    @apply text-red-500;
+  }
+  
+  .imagePreview {
+    @apply mt-4 max-w-full h-auto;
+  }
+  
+  .suggestions {
+    @apply flex flex-wrap space-x-2;
+  }
+  
+  .suggestion {
+    @apply p-1 border rounded-md text-sm;
+  }
+  

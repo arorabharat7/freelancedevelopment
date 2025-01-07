@@ -1,0 +1,1 @@
+{"error":{"message":"(#131008) Required parameter is missing","type":"OAuthException","code":131008,"error_data":{"messaging_product":"whatsapp","details":"buttons: Button at index 0 of type Url requires a parameter"},"fbtrace_id":"Aa5aUZqB-spkngLC0IRmYWa"}}
